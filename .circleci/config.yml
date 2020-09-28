@@ -54,7 +54,7 @@ workflows:
             - test
       - deploy:
           requires:
-            - test
+            - hold
           filters:
             branches:
               only:

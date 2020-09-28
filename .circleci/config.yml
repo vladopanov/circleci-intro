@@ -53,7 +53,7 @@ workflows:
           requires:
             - build-backend
             - build-frontend
-      -deploy:
+      - deploy:
           requires:
             - test-frontend
             - test-backend

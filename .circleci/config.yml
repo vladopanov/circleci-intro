@@ -42,7 +42,7 @@ workflows:
       - deploy:
           requires:
             - test
-          filtrs:
+          filters:
             branches:
               only:
                 - master
